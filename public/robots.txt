@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.securenetsolutions.co.ke/sitemap.xml
