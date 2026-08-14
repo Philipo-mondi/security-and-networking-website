@@ -23,7 +23,11 @@ export const COMPANY = {
     ),
 
   email: "emmanuelweke58@gmail.com",
-  emailHref: "mailto:emmanuelweke58@gmail.com?subject=EMHILL%20Inquiry",
+  emailHref:
+    "mailto:emmanuelweke58@gmail.com?subject=EMHILL%20Inquiry&body=" +
+    encodeURIComponent(
+      "Hello EMHILL Team,\n\nI am interested in your CCTV installation and networking services.\n\nPlease provide more information about your services and pricing.\n\nThank you."
+    ),
 
   location: "Nairobi, Kenya",
   address: "5th Floor, ABC Plaza, Moi Avenue, Nairobi CBD, Kenya",
