@@ -12,12 +12,12 @@ export const COMPANY = {
   tagline: "Security. Reliability. Technology.",
   subBrand: "CCTV • SECURITY • NETWORKING",
 
-  phoneDisplay: "+254 113 137 010",
-  phoneHref: "tel:+254113137010",
+  phoneDisplay: "+254 718 131 159",
+  phoneHref: "tel:+254718131159",
 
-  whatsappNumber: "254113137010",
+  whatsappNumber: "254718131159",
   whatsappHref:
-    "https://wa.me/254113137010?text=" +
+    "https://wa.me/254718131159?text=" +
     encodeURIComponent(
       "Hello, I am interested in your CCTV and networking services. I would like to request a quotation."
     ),
