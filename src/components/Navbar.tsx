@@ -41,14 +41,14 @@ export default function Navbar() {
           aria-label={`${COMPANY.name} — home`}
         >
           <img
-            src="/security-and-networking-website/images/emhill-logo.png"
+            src="/images/emhill-logo.png"
             alt={`${COMPANY.name} Logo`}
             className="h-12 w-12 transition-transform duration-300 group-hover:scale-105"
           />
           <span className="leading-tight">
             <span className="block font-display text-[15px] font-bold tracking-tight text-white">
-              <span className="text-orange-500">EM</span>
-              <span className="text-black">HILL</span>
+              <span className="text-orange-500 font-black">EM</span>
+              <span className="text-white">HILL</span>
             </span>
             <span className="block text-[10px] font-semibold tracking-[0.22em] text-brand-300/90 uppercase">
               {COMPANY.subBrand}
