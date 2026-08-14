@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, Phone, X } from "lucide-react";
+import { Menu, Phone, ShieldCheck, X } from "lucide-react";
 import { COMPANY, NAV_LINKS } from "../config";
 
 export default function Navbar() {
@@ -40,11 +40,9 @@ export default function Navbar() {
           className="group flex shrink-0 items-center gap-2.5"
           aria-label={`${COMPANY.name} — home`}
         >
-          <img
-            src="/images/emhill-logo.png"
-            alt={`${COMPANY.name} Logo`}
-            className="h-12 w-12 transition-transform duration-300 group-hover:scale-105"
-          />
+          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 text-white shadow-lg shadow-orange-900/40 transition-transform duration-300 group-hover:scale-105">
+            <ShieldCheck className="h-5.5 w-5.5" aria-hidden="true" />
+          </span>
           <span className="leading-tight">
             <span className="block font-display text-[15px] font-bold tracking-tight text-white">
               <span className="text-orange-500 font-black">EM</span>
