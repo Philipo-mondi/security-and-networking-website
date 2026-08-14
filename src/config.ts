@@ -7,8 +7,8 @@
  */
 
 export const COMPANY = {
-  name: "SecureNet Solutions",
-  shortName: "SecureNet",
+  name: "EMHILL",
+  shortName: "EMHILL",
   tagline: "Security. Reliability. Technology.",
   subBrand: "CCTV • SECURITY • NETWORKING",
 
@@ -23,7 +23,7 @@ export const COMPANY = {
     ),
 
   email: "emmanuelweke58@gmail.com",
-  emailHref: "mailto:emmanuelweke58@gmail.com",
+  emailHref: "mailto:emmanuelweke58@gmail.com?subject=EMHILL%20Inquiry",
 
   location: "Nairobi, Kenya",
   address: "5th Floor, ABC Plaza, Moi Avenue, Nairobi CBD, Kenya",
